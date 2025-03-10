@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textview_range"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:text="범위 선택:" />
+
+    <SeekBar
+        android:id="@+id/seekbar_range"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:thumb="@drawable/de"
+        android:max="100" />
+    <!-- 참가 인원 수 선택 UI -->
+    <TextView
+        android:id="@+id/textview_participant_range"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:text="참가 인원 수:" />
+
+    <SeekBar
+        android:id="@+id/seekbar_participant_range"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:thumb="@drawable/de"
+        android:max="10" />
+
+    <Spinner
+        android:id="@+id/spinner_food_options"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/button_apply_filter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:text="필터 적용"
+        android:background="#9DC3C1" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "870325527260",
+    "project_id": "fir-chat-c051d",
+    "storage_bucket": "fir-chat-c051d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870325527260:android:63fce5427f94028bed0a19",
+        "android_client_info": {
+          "package_name": "com.example.googlemaptest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfYQLhofKZgtgtuNmAwNOaJmud36XwEVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

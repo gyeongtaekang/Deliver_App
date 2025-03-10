@@ -1,0 +1,73 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 이름 입력 필드 -->
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="이름" />
+
+    <!-- 레스토랑 이름 입력 필드 -->
+    <EditText
+        android:id="@+id/restaurantInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="레스토랑 이름" />
+
+    <!-- 비밀번호 입력 필드 -->
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호"
+        android:inputType="textPassword" />
+
+    <!-- 채팅 링크 입력 필드 -->
+<!--    <EditText
+        android:id="@+id/chatLinkInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="채팅 링크" />-->
+
+    <!-- 설명 입력 필드 -->
+    <EditText
+        android:id="@+id/descriptionInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="설명" />
+
+    <TextView
+        android:id="@+id/seekBarValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="모집 인원: 1"
+        android:layout_gravity="center"/>
+
+    <!-- SeekBar: 1부터 10까지의 값을 선택할 수 있게 설정 -->
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:max="9"
+        android:progress="0"/>
+
+    <!-- 음식 종류 선택 스피너 -->
+    <Spinner
+        android:id="@+id/menuSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <com.google.android.gms.maps.MapView
+        android:layout_marginTop="5dp"
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+
+</LinearLayout>

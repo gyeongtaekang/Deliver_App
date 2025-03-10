@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">배달 조각</string>
+    <string-array name="food_options">
+        <item>모두 보기</item>
+        <item>치킨</item>
+        <item>피자</item>
+        <item>족발</item>
+        <item>디저트</item>
+        <item>기타 음식</item>
+        <item>스페셜</item>
+    </string-array>
+    <string-array name="food_options_for_creation">
+        <item>치킨</item>
+        <item>피자</item>
+        <item>족발</item>
+        <item>디저트</item>
+        <item>기타 음식</item>
+        <item>스페셜</item>
+        <!-- 모두 보기 옵션을 포함하지 않음 -->
+    </string-array>
+    <string-array name="spinner_list">
+        <item>Bronze</item>
+        <item>Silver</item>
+        <item>Premium</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="close_chat">채팅방 닫기</string>
+</resources>
